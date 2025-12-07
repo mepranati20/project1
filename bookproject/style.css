@@ -1,0 +1,53 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#newBookBtn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.library-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.book-card {
+  background: white;
+  padding: 15px;
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #aaa;
+}
+
+.book-card h3, .book-card p {
+  margin: 6px 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+dialog {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}

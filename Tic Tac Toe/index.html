@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+<body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <div class="setup">
+        <input id="p1" type="text" placeholder="Enter your name1">
+        <input id="p2" type="text" placeholder="Enter your name2" >
+        <button id="startBtn">Start Game</button>
+        <button id="restartBtn">Restart</button>
+    </div>
+
+    <div id="message"></div>
+
+    <div id="gameboard" class="board"></div>
+    <div id="winPopup" class="popup hidden">
+    <div class="popup-box">
+        <span id="popupEmoji">✨</span>
+        <p id="popupText"></p>
+        <button onclick="closePopup()">Yay! 💖</button>
+    </div>
+</div>
+   
+    <script src="tic-tac-toe.js"></script>
+<audio id="soundX" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_2f3fa51e56.mp3?filename=soft-pop-110190.mp3"></audio>
+<audio id="soundO" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_44f7dbf91a.mp3?filename=soft-click-110183.mp3"></audio>
+<audio id="soundWin" src="https://cdn.pixabay.com/download/audio/2021/09/01/audio_b3bf93d7a4.mp3?filename=success-1-6297.mp3"></audio>
+
+</body>
+</html>
