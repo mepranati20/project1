@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+
+<body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <div class="setup">
+        <input id="p1" type="text" placeholder="Enter your name1">
+        <input id="p2" type="text" placeholder="Enter your name2">
+        <button id="startBtn">Start Game</button>
+        <button id="restartBtn">Restart</button>
+    </div>
+
+    <div id="message"></div>
+
+    <div id="gameboard" class="board"></div>
+
+    <!-- Win Popup -->
+    <div id="winPopup" class="popup hidden">
+        <div class="popup-box">
+            <span id="popupEmoji">✨</span>
+            <p id="popupText"></p>
+            <button onclick="closePopup()">Yay! 💖</button>
+        </div>
+    </div>
+
+    <!-- AUDIO MUST BE ABOVE THE JS FILE -->
+    <audio id="soundX"
+        src="C:\Users\Sipu\Downloads\mixkit-handgun-click-1660 (1).mp3">
+    </audio>
+
+    <audio id="soundO"
+        src="C:\Users\Sipu\Downloads\mixkit-handgun-click-1660 (1).mp3">
+    </audio>
+
+    <audio id="soundWin"
+        src="C:\Users\Sipu\Downloads\triumphant-yes-x2-103141.mp3">
+    </audio>
+    
+
+
+    <!-- JS SHOULD ALWAYS BE LAST -->
+    <script src="tic-tac-toe.js"></script>
+
+</body>
+</html>
